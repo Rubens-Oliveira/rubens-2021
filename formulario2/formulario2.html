@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de DEVs</h1> 
+        <h2>complete suas informações</h2>        
+    </header>
+
+    <div class="container">                         
+        
+            <section class="formulario">
+                <div class="nome">              
+                    <label for="name">Nome</label>
+                    <input type="text" class="input-1" name="name" id="name">
+                    <label for="name" class="name-data">Sobrenome</label>
+                    <input type="text" class="input-2" name="name" id="name">
+                </div> 
+               
+                    <label for="email" class="name-4">E-mail</label><br>
+                    <input type="email" class="input-3" name="email" id="email">                
+            </section>
+
+            <section class="selecao">             
+                <p class="type">De qual lado da aplicação você desenvolve</p>
+                    <label class="texto"><input type="radio" value="baixa" name="prioridade"> Front-end</label><br>
+                    <label class="texto"><input type="radio" value="media" name="prioridade"> Back-end</label><br>
+                    <label class="texto"><input type="radio" value="alta" name="prioridade"> Fullstack</label><br>
+                </section>
+
+            <section>
+                <p class="informacoes">Senioridade</p>
+                <select class="opcao">
+                    <option class="opcao-1" value="0"> Selecione</option>
+                    <option value="1"> júnior</option>
+                    <option value="2"> pleno</option>
+                    <option value="3"> senior</option>                    
+                </select>                
+                
+                <section class="tecnologias">
+                    <p>Selecione as tecnologias que utiliza</p> 
+                    <label class="texto-1"> <input type="checkbox" name="copy" value="1">HTML</label>
+                    <label class="texto-1"> <input type="checkbox" name="human" value="1">CSS</label>
+                    <label class="texto-1"> <input type="checkbox" name="human" value="1">JavaScript</label>
+                    <label class="texto-1"> <input type="checkbox" name="human" value="1">PHP</label>
+                    <label class="texto-1"> <input type="checkbox" name="human" value="1">C#</label>
+                    <label class="texto-1"> <input type="checkbox" name="human" value="1">C++</label>
+                    <label class="texto-1"> <input type="checkbox" name="human" value="1">C</label>
+                    <label class="texto-1"> <input type="checkbox" name="human" value="1">Phyton</label>
+                    <label class="texto-1"> <input type="checkbox" name="human" value="1">Java</label>
+                </section>
+
+                <section class="mensagem">
+                    <label for="msg">Conte um pouco da sua experiência:</label><br>              
+                    <textarea class="caixa" rows="5" cols="70" placeholder="digite uma mensagem" id="msg"></textarea>
+                </section>   
+            </section>  
+            
+            <section class="button">
+                <input type="submit" class="button-default button-default-big" value="Concluído">            
+            </section>        
+    </div>       
+        
+</body>
+</html>
